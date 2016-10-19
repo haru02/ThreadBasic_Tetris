@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- background !-->
+    <color name="background">#000000</color>
+    <color name="border">#8c8c8c</color>
+
+    <!-- block color !-->
+    <color name="block1">#ff0d00</color>
+    <color name="block2">#ffa200</color>
+    <color name="block3">#f8ff23</color>
+    <color name="block4">#00ff22</color>
+    <color name="block5">#0022ff</color>
+    <color name="block6">#5100ff</color>
+    <color name="block7">#c300ff</color>
+
+    <!-- text color !-->
+    <color name="textTitle">#ffffff</color>
+    <color name="textContents">#fff372</color>
+</resources>

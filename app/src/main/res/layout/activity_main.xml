@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.froze.threadbasic_tetris.MainActivity">
+
+    <Button
+        android:text="↓"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonDown"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="↑"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonUp"
+        android:layout_above="@+id/buttonDown"
+        android:layout_alignLeft="@+id/buttonDown"
+        android:layout_alignStart="@+id/buttonDown" />
+
+    <Button
+        android:text="←"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonLeft"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/buttonUp"
+        android:layout_toStartOf="@+id/buttonUp" />
+
+    <Button
+        android:text="→"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRight"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/buttonDown"
+        android:layout_toEndOf="@+id/buttonDown" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/buttonUp"
+        android:id="@+id/frameLayout">
+
+    </FrameLayout>
+
+</RelativeLayout>
